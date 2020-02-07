@@ -1,0 +1,19 @@
+{
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "description": "A JavaScript practice which consists of writing tests with Jest",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frederico-miranda/javascript-testing.git"
+  },
+  "author": "Frederico Miranda; Gastón Costa Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frederico-miranda/javascript-testing/issues"
+  },
+  "homepage": "https://github.com/frederico-miranda/javascript-testing#readme"
+}

@@ -15,14 +15,14 @@ test('\'ceasar\' should accept negative shifts', () => {
   expect(ceasar('Frederico', -3)).toBe('Cobabofzl');
   expect(ceasar('Frederico', -29)).toBe('Cobabofzl');
 });
-  
+
 test('\'ceasar\' should accept positive shifts', () => {
   expect(ceasar('HAL', 1)).toBe('IBM');
   expect(ceasar('HAL', 27)).toBe('IBM');
   expect(ceasar('Cobabofzl', 3)).toBe('Frederico');
   expect(ceasar('Cobabofzl', 29)).toBe('Frederico');
 });
-  
+
 test('\'ceasar\' should ignore and leave in place non-latin characters', () => {
   expect(ceasar('HAL9000', 1)).toBe('IBM9000');
   expect(ceasar('Attention, please!', 1)).toBe('Buufoujpo, qmfbtf!');

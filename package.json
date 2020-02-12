@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/frederico-miranda/javascript-testing/issues"
   },
-  "homepage": "https://github.com/frederico-miranda/javascript-testing#readme"
+  "homepage": "https://github.com/frederico-miranda/javascript-testing#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

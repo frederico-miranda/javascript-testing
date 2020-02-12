@@ -1,5 +1,7 @@
 # JAVASCRIPT TESTING
 
+![screenshot](screenshot.png)
+
 ## ABOUT THIS REPOSITORY
 
 This repository stores a practice of JavaScript which consists of creating tests by using [Jest](https://jestjs.io/). The full description for this practice can be found at the following link:
